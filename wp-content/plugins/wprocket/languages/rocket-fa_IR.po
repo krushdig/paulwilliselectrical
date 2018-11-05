@@ -1,0 +1,1540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Rocket\n"
+"POT-Creation-Date: 2015-06-25 00:51+0330\n"
+"PO-Revision-Date: 2015-07-13 03:43-0800\n"
+"Last-Translator: Alireza Rastegar <alireza.mine@gmail.com>\n"
+"Language-Team: www.20script.ir <info@20script.ir>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin/admin.php:13 inc/admin/options.php:495 inc/admin/options.php:500
+#: inc/admin/ui/modules/support.php:4 inc/common/admin-bar.php:212
+msgid "Support"
+msgstr "پشتیبانی و لایسنس"
+
+#: inc/admin/admin.php:15
+msgid "Docs"
+msgstr ""
+
+#: inc/admin/admin.php:18 inc/common/admin-bar.php:31
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: inc/admin/admin.php:60
+msgid "Clear this cache"
+msgstr "پاک کردن کش"
+
+#: inc/admin/admin.php:259 inc/admin/admin.php:267
+#, php-format
+msgid "%s Update Rollback"
+msgstr ""
+
+#: inc/admin/faq.inc.php:2
+msgid "FAQ's Table of Content"
+msgstr ""
+
+#: inc/admin/options.php:155 inc/admin/options.php:383
+msgid "Warning: "
+msgstr "هشدار :"
+
+#: inc/admin/options.php:162
+msgid "Download options"
+msgstr "دانلود تنظیمات"
+
+#: inc/admin/options.php:191
+msgid "<b>JS</b> files with Deferred Loading JavaScript"
+msgstr ""
+
+#: inc/admin/options.php:211 inc/admin/options.php:231
+#: inc/admin/options.php:251
+msgid "Wait until this file is loaded?"
+msgstr "شکیبا باشید تا فایل بارگزاری شود ؟"
+
+#: inc/admin/options.php:259 inc/admin/ui/modules/advanced.php:223
+msgid "Add URL"
+msgstr "افزودن آدس"
+
+#: inc/admin/options.php:271 inc/admin/ui/modules/cdn.php:67
+msgid "Replace site's hostname with:"
+msgstr "جایگزینی نام هاست با :"
+
+#: inc/admin/options.php:289 inc/admin/options.php:315
+#: inc/admin/options.php:339
+msgid "reserved for"
+msgstr "این سایت متعلق به"
+
+#: inc/admin/options.php:291 inc/admin/options.php:317
+#: inc/admin/options.php:341
+msgid "All files"
+msgstr "همه فایل ها"
+
+#: inc/admin/options.php:292 inc/admin/options.php:318
+#: inc/admin/options.php:342 inc/admin/ui/modules/basic.php:14
+msgid "Images"
+msgstr "تصاویر"
+
+#: inc/admin/options.php:354
+msgid "Add CNAME"
+msgstr "افزودن "
+
+#: inc/admin/options.php:414
+msgid "Watch the video"
+msgstr "تماشای ویدیو"
+
+#: inc/admin/options.php:480 inc/admin/ui/modules/basic.php:4
+msgid "Basic options"
+msgstr "تنظیمات عمومی"
+
+#: inc/admin/options.php:481 inc/admin/ui/modules/advanced.php:4
+msgid "Advanced options"
+msgstr "تنظیمات پیشرفته"
+
+#: inc/admin/options.php:485 inc/admin/ui/meta-boxes.php:62
+msgid "CDN"
+msgstr "شبکه تحویل محتوا"
+
+#: inc/admin/options.php:487 inc/admin/ui/modules/white-label.php:4
+msgid "White Label"
+msgstr "برچسب سفید"
+
+#: inc/admin/options.php:489 inc/admin/ui/modules/tools.php:4
+msgid "Tools"
+msgstr "ابزار ها"
+
+#: inc/admin/options.php:492 inc/admin/ui/modules/tutorials.php:4
+msgid "Tutorials"
+msgstr "آموزش"
+
+#: inc/admin/options.php:494 inc/admin/options.php:499
+#: inc/admin/ui/modules/faq.php:4 inc/admin/ui/modules/faq.php:7
+msgid "FAQ"
+msgstr "مستندات و پرسش"
+
+#: inc/admin/options.php:498
+msgid "License"
+msgstr "لایسنس"
+
+#: inc/admin/options.php:821
+msgid "Settings imported and saved."
+msgstr "تنظیمات درون ریزی بروز رسانی شد"
+
+#: inc/admin/options.php:839 inc/admin/options.php:923
+msgid "Settings saved."
+msgstr "تنظیمات بروز رسانی شد"
+
+#: inc/admin/options.php:1002
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+
+#: inc/admin/options.php:1009
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: inc/admin/options.php:1009
+#, php-format
+msgid "Maximum size: %s"
+msgstr ""
+
+#: inc/admin/options.php:1012
+msgid "Upload file and import settings"
+msgstr "آپلود فایل درون ریز"
+
+#: inc/admin/ui/enqueue.php:24
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:25
+msgid "All fields are required!"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:27
+msgid "CloudFlare Settings"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:28
+msgid "Click \"Save Changes\" to activate the Cloudflare tab."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:30
+msgid "Transmitting across the galaxy..."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:33
+msgid "Unable to transmit"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:34
+msgid ""
+"It seems that communications with Mission Control are temporarily down...."
+"please submit a support ticket while our Rocket Scientists fix the issue."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:35
+msgid "Get help from a rocket scientist"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:37
+msgid "Last steps before contacting us"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:38
+#, php-format
+msgid ""
+"You have to read the <a href=\"%s\" target=\"_blank\">documentation</a> and "
+"to agree to send informations relative to your website to submit a support "
+"ticket."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:40
+msgid "Transmission Received!"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:41
+msgid "We've received your ticket and will reply back within a few hours!"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:41
+msgid "We answer every ticket so check your spam if you don't hear from us."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:43
+msgid "Oh dear, someone's been naughty..."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:44
+msgid ""
+"Well, well, looks like you've got yourself a \"nulled\" version! We don't "
+"provide support to hackers or pirates, so you will need a valid license to "
+"proceed."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:44
+#, php-format
+msgid "Click below to buy a license with a 20% discount automatically applied."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:45
+msgid "Buy It Now!"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:47
+msgid "Uh-oh, you're out of fuel!"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:48
+msgid ""
+"To keep your Rocket running with access to support, <strong>you'll need to "
+"renew your license</strong>."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:48
+msgid ""
+"Click below to renew with a <strong>discount of 50%</strong> automatically "
+"applied!"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:49
+msgid "I re-synchronize now!"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:51
+msgid ""
+"In case of any display errors we recommend following our documentation: "
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:51
+#, php-format
+msgid ""
+"You can also <a href=\"%s\">contact our support</a> if you need help "
+"implementing that."
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:53
+msgid "Yes, I'm sure!"
+msgstr ""
+
+#: inc/admin/ui/enqueue.php:54
+msgid "Cancel"
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:18 inc/admin/ui/modules/cloudflare.php:100
+#: inc/admin/ui/modules/cloudflare.php:106 inc/admin/ui/modules/tools.php:31
+#: inc/admin/ui/modules/tools.php:37 inc/admin/ui/notices.php:92
+#: inc/common/admin-bar.php:43 inc/common/admin-bar.php:66
+#: inc/common/admin-bar.php:100
+msgid "Clear cache"
+msgstr "پاک کردن کش"
+
+#: inc/admin/ui/meta-boxes.php:36
+msgid "Cache Options"
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:54
+msgid "Activate these options on this post:"
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:57
+msgid "Images LazyLoad"
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:58
+msgid "Iframes & Videos LazyLoad"
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:59
+msgid "HTML Minification"
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:60
+msgid "CSS Minification"
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:61
+msgid "JS Minification"
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:67
+#, php-format
+msgid "Activate first the %s option."
+msgstr ""
+
+#: inc/admin/ui/meta-boxes.php:80
+msgid ""
+"<strong>Note:</strong> These options aren't applied if you added this post "
+"in the \"Never cache the following pages\" option."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:7 inc/admin/ui/modules/advanced.php:15
+msgid "Prefetch DNS requests:"
+msgstr "درخواست واکشی DNS :"
+
+#: inc/admin/ui/modules/advanced.php:20
+msgid ""
+"DNS prefetching is a way for browsers to anticipate the DNS resolution of "
+"external domains from your site."
+msgstr "DNS واکشی اولیه را برای مرورگر و دامنه های خارجی سایت شما انجام میدهد"
+
+#: inc/admin/ui/modules/advanced.php:20
+msgid "This mechanism reduces the latency of some external files."
+msgstr "این مکانیزم تاخیر برخی از فایل های خارجی را کاهش میدهد"
+
+#: inc/admin/ui/modules/advanced.php:26
+#, php-format
+msgid ""
+"To learn more about this option and how to use it correctly, we advise you "
+"to watch the following video: <a href=\"%1$s\" class=\"fancybox\">%1$s</a>."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:31
+msgid ""
+"<strong>Note:</strong> Enter the domain names without their protocol, for "
+"example: <code>//ajax.googleapis.com</code> without <code>http:</code> (one "
+"per line)."
+msgstr ""
+"<strong>نکته :</strong>نام دامنه را بدون پروتکل وارد کنید ، برای مثال :"
+"<code>ajax.googleapis.com//</code>بدون<code>:http</code> (برای تمام خط ها)"
+
+#: inc/admin/ui/modules/advanced.php:37 inc/admin/ui/modules/advanced.php:45
+msgid "Empty the cache of the following pages when updating a post:"
+msgstr "خالی کردن کش بروزرسانی نوشته :"
+
+#: inc/admin/ui/modules/advanced.php:50
+msgid ""
+"Enter the URL of additionnal pages to purge when updating a post (one per "
+"line)."
+msgstr ""
+"آدرس صفحات اضافی را وارد کنید ، برای پاکسازی زمانی که یک نوشته بروزرسانی "
+"میشود"
+
+#: inc/admin/ui/modules/advanced.php:51 inc/admin/ui/modules/advanced.php:75
+#: inc/admin/ui/modules/advanced.php:137 inc/admin/ui/modules/advanced.php:187
+#: inc/admin/ui/modules/advanced.php:206 inc/admin/ui/modules/cdn.php:87
+msgid "You can use regular expressions (regex)."
+msgstr "از آدرس های منظم استفاده کنید"
+
+#: inc/admin/ui/modules/advanced.php:56
+msgid ""
+"<strong>Note:</strong> When you update a post or when a comment is posted, "
+"the homepage, categories and tags associated with this post are "
+"automatically removed from the cache and then recreated by our bot."
+msgstr ""
+"<strong>نکته :</strong>هنگامی که شمات یک نوشته را بروزرسانی میکنید یا کاربر "
+"یک دیدگاه ارسال میکند ، در صفحه اصلی مجموعه ها و تگ های مرتبط با این نوشته "
+"خودکار از کش حذف شده و سپس دوبار کش میشوند"
+
+#: inc/admin/ui/modules/advanced.php:62 inc/admin/ui/modules/advanced.php:70
+msgid "Never cache the following pages:"
+msgstr "کش نشدن برگه ها :"
+
+#: inc/admin/ui/modules/advanced.php:75
+msgid "Enter the URL of pages to reject (one per line)."
+msgstr "آدرس برگه های رد شده"
+
+#: inc/admin/ui/modules/advanced.php:80
+msgid ""
+"<strong>Note:</strong> The cart and checkout pages are auto-excluded from "
+"the cache for WooCommerce, Easy Digital Download, iThemes Exchange, Jigoshop "
+"& WP-Shop."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:86 inc/admin/ui/modules/advanced.php:94
+msgid "Don't cache pages that use the following cookies:"
+msgstr "کش نشدن کوکی برگه ها :"
+
+#: inc/admin/ui/modules/advanced.php:99
+msgid "List the names of the cookies (one per line)."
+msgstr "فهرست اسامی کوکی ها"
+
+#: inc/admin/ui/modules/advanced.php:105 inc/admin/ui/modules/advanced.php:113
+msgid "Cache pages that use the following query strings (GET parameters):"
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:118
+msgid "List of query strings which can be cached (one per line)."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:124 inc/admin/ui/modules/advanced.php:132
+msgid "Never send cache pages for these user agents:"
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:137
+msgid "Enter the user agents name to reject (one per line)."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:143
+msgid "Reducing the number of minified files in one file on:"
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:152 inc/admin/ui/modules/basic.php:69
+msgid "CSS Files minification"
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:158 inc/admin/ui/modules/basic.php:75
+msgid "JS Files minification"
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:163
+msgid ""
+"<strong>Note:</strong> We combine the minified files in little groups "
+"<strong>to ensure the best compatibility and better performance</strong>."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:163
+msgid ""
+"However <strong>you can force the minification to create only 1 file</"
+"strong> by activating this option."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:163
+msgid ""
+"But it's not recommended to do that because <strong>you won't take advantage "
+"of the parallelization of the download</strong>: it's faster to download 4 "
+"files in parallel rather than one big file."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:168
+msgid ""
+"Depending to your server configuration, these options can break your "
+"website. If you have any issues, you must deactivate it!"
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:174 inc/admin/ui/modules/advanced.php:182
+msgid "<b>CSS</b> files to exclude from minification:"
+msgstr "فشرده سازی CSS :"
+
+#: inc/admin/ui/modules/advanced.php:187
+msgid "Enter the URL of <b>CSS</b> files to reject (one per line)."
+msgstr "آدرس فایل CSS"
+
+#: inc/admin/ui/modules/advanced.php:193 inc/admin/ui/modules/advanced.php:201
+msgid "<b>JS</b> files to exclude from minification:"
+msgstr "فشرده سازی جاوا :"
+
+#: inc/admin/ui/modules/advanced.php:206
+msgid "Enter the URL of <b>JS</b> files to reject (one per line)."
+msgstr "آدرس فایل جاوا"
+
+#: inc/admin/ui/modules/advanced.php:212 inc/admin/ui/modules/advanced.php:219
+msgid ""
+"<b>JS</b> files to be included in the footer during the minification process:"
+msgstr "فشرده سازی جاوا در پاورقی :"
+
+#: inc/admin/ui/modules/advanced.php:228 inc/admin/ui/modules/advanced.php:256
+msgid "Empty the field to remove it."
+msgstr ""
+
+#: inc/admin/ui/modules/advanced.php:234 inc/admin/ui/modules/advanced.php:262
+msgid "You must specify the complete URL of the files."
+msgstr "آدرس فایل را باید کامل وارد شود"
+
+#: inc/admin/ui/modules/advanced.php:240
+msgid "<b>JS</b> files with deferred loading:"
+msgstr "بارگزاری معوق فایل جاوا :"
+
+#: inc/admin/ui/modules/advanced.php:251
+msgid ""
+"You can add JavaScript files that will be loaded asynchronously at the same "
+"time as the page loads."
+msgstr ""
+"شما میتوانید فایل های جاوا را اینجا بارگزاری کنید تا در هنگام بارگزاری با "
+"برگه فراخوانی شده بارگزاری شوند"
+
+#: inc/admin/ui/modules/api-key.php:4
+msgid "License validation"
+msgstr ""
+
+#: inc/admin/ui/modules/api-key.php:7 inc/admin/ui/modules/api-key.php:15
+#: inc/admin/ui/modules/cloudflare.php:21
+#: inc/admin/ui/modules/cloudflare.php:29
+msgid "API Key"
+msgstr ""
+
+#: inc/admin/ui/modules/api-key.php:20
+msgid "Please enter the API key obtained after your purchase."
+msgstr ""
+
+#: inc/admin/ui/modules/api-key.php:26 inc/admin/ui/modules/api-key.php:34
+msgid "E-mail Address"
+msgstr ""
+
+#: inc/admin/ui/modules/api-key.php:39
+msgid "The one used for the purchase, in your support account."
+msgstr ""
+
+#: inc/admin/ui/modules/basic.php:7
+msgid "Lazyload:"
+msgstr "بارگزاری تنبل :"
+
+#: inc/admin/ui/modules/basic.php:16
+msgid "Lazyload on images"
+msgstr ""
+
+#: inc/admin/ui/modules/basic.php:20
+msgid "Iframes & Videos"
+msgstr ""
+
+#: inc/admin/ui/modules/basic.php:22
+msgid "Lazyload on iframes and videos"
+msgstr ""
+
+#: inc/admin/ui/modules/basic.php:27
+msgid ""
+"LazyLoad displays images, iframes and videos on a page only when they are "
+"visible to the user."
+msgstr ""
+
+#: inc/admin/ui/modules/basic.php:28 inc/admin/ui/modules/basic.php:80
+msgid ""
+"This mechanism reduces the number of HTTP requests and improves the loading "
+"time."
+msgstr ""
+"این مکانیزم تعداد درخواست ها را کاهش میدهد و باعث بهبود زمان بارگزاری میشود"
+
+#: inc/admin/ui/modules/basic.php:34
+msgid ""
+"Files optimisation:<br/><span class=\"description\">(Minification & "
+"Concatenation)</span>"
+msgstr "بهینه سازی فایل ها :"
+
+#: inc/admin/ui/modules/basic.php:43
+msgid "HTML Files minification"
+msgstr ""
+
+#: inc/admin/ui/modules/basic.php:63
+msgid "Google Fonts minification"
+msgstr ""
+
+#: inc/admin/ui/modules/basic.php:80
+msgid ""
+"Minification removes any spaces and comments present in the CSS and "
+"JavaScript files."
+msgstr "حذف هرگونه فضای اضافه در فایل های  جاوا ، CSS و HTML"
+
+#: inc/admin/ui/modules/basic.php:80
+msgid ""
+"This mechanism reduces the weight of each file and allows a faster reading "
+"of browsers and search engines."
+msgstr ""
+"این مکانیزم ، وزن هر یک از فایل ها را کاهش می دهد تا خواندن ، سریع تر توسط "
+"مرورگر ها و موتورهای جستجو انجام شود"
+
+#: inc/admin/ui/modules/basic.php:80
+msgid "Concatenation combines all CSS and JavaScript files."
+msgstr "الحاق ترکیبی از همه ی فایل های CSS و  جاوا اسکریپت"
+
+#: inc/admin/ui/modules/basic.php:85
+msgid "Concatenating files can cause display errors."
+msgstr "الحاق فایل ها می تواند خطا های نمایش داشته باشد"
+
+#: inc/admin/ui/modules/basic.php:91
+#, php-format
+msgid ""
+"In case of any errors we recommend you to turn off this option or watch the "
+"following video: <a href=\"%1$s\" class=\"fancybox\">%1$s</a>."
+msgstr ""
+"در صورت داشتن هرگونه خطا توصیه میکنیم ویدیو زیر را تماشا کنید ، آدرس ویدیو : "
+"<a href=\"%1$s\" class=\"fancybox\">%1$s</a>"
+
+#: inc/admin/ui/modules/basic.php:107 inc/admin/ui/modules/basic.php:116
+msgid "Mobile cache:"
+msgstr "کش موبایل :"
+
+#: inc/admin/ui/modules/basic.php:114
+msgid "Enable caching for mobile devices."
+msgstr "فعالسازی کش برای موبایل"
+
+#: inc/admin/ui/modules/basic.php:121
+msgid "Don't turn on this option if you use one of these plugins: %l."
+msgstr "اگر از این افزونه ها استفاده میکنید از این گزینه استفاده نکنید %l"
+
+#: inc/admin/ui/modules/basic.php:127 inc/admin/ui/modules/basic.php:134
+msgid "Logged in user cache:"
+msgstr "کش کابران خارج شده :"
+
+#: inc/admin/ui/modules/basic.php:132
+msgid "Enable caching for logged in users."
+msgstr "فعالسازی ذخیره کش کابران خارج شده"
+
+#: inc/admin/ui/modules/basic.php:139 inc/admin/ui/modules/basic.php:147
+msgid "SSL cache:"
+msgstr "کش امنیتی :"
+
+#: inc/admin/ui/modules/basic.php:145
+msgid "Enable caching for pages with SSL protocol (<code>https://</code>)."
+msgstr "فعالسازی کش برای برگه های امنیتی مانند : (<code>//:https</code>)"
+
+#: inc/admin/ui/modules/basic.php:152 inc/admin/ui/modules/basic.php:160
+msgid "Clear Cache Lifespan"
+msgstr "زمانبندی پاک کردن کش :"
+
+#: inc/admin/ui/modules/basic.php:166
+msgid "Unit of time"
+msgstr ""
+
+#: inc/admin/ui/modules/basic.php:169
+msgid "second(s)"
+msgstr "ثانیه"
+
+#: inc/admin/ui/modules/basic.php:170
+msgid "minute(s)"
+msgstr "دقیقه"
+
+#: inc/admin/ui/modules/basic.php:171
+msgid "hour(s)"
+msgstr "ساعت"
+
+#: inc/admin/ui/modules/basic.php:172
+msgid "day(s)"
+msgstr "روز"
+
+#: inc/admin/ui/modules/basic.php:178
+msgid ""
+"By default, cache lifespan is 24 hours. This means that once created, the "
+"cache files are automatically removed after 24 hours before being recreated."
+msgstr ""
+"به طور پیش فرض ، طول عمر کش 24 ساعت است ، این به این معنی است که کش ایجاد "
+"شده در 24 بعد خودکار پاک و کش جدید جایگزین میشود"
+
+#: inc/admin/ui/modules/basic.php:178
+msgid ""
+"This can be useful if you display your latest tweets or rss feeds in your "
+"sidebar, for example."
+msgstr "مفید برای نمایش موضوعات خروجی فید"
+
+#: inc/admin/ui/modules/basic.php:183
+msgid "Specify 0 for unlimited lifetime."
+msgstr "زمان 0 به معنی طول عمر نامحدود است"
+
+#: inc/admin/ui/modules/cdn.php:4
+msgid "Content Delivery Network options"
+msgstr ""
+
+#: inc/admin/ui/modules/cdn.php:14
+msgid "Enable CloudFlare settings tab."
+msgstr ""
+
+#: inc/admin/ui/modules/cdn.php:21
+msgid ""
+"This option allows you to configure some CloudFlare settings like "
+"development mode, purge cache and a recommended configuration."
+msgstr ""
+
+#: inc/admin/ui/modules/cdn.php:26
+msgid ""
+"<strong>Note:</strong> If you are using CloudFlare, configure the options in "
+"the CloudFlare tab. The CDN settings below <strong>do not apply</strong> to "
+"CloudFlare."
+msgstr ""
+
+#: inc/admin/ui/modules/cdn.php:32 inc/admin/ui/modules/cdn.php:41
+msgid "CDN:"
+msgstr "شبکه تحویل محتوا :"
+
+#: inc/admin/ui/modules/cdn.php:39
+msgid "Enable Content Delivery Network."
+msgstr "فعالسازی شبکه تحویل محتوا"
+
+#: inc/admin/ui/modules/cdn.php:46
+msgid ""
+"CDN function replaces all URLs of your static files and media (CSS, JS, "
+"Images) with the url entered below. This way all your content will be copied "
+"to a dedicated hosting or a CDN system <a href=\"http://www.maxcdn.com/\" "
+"target=\"_blank\">maxCDN</a>."
+msgstr ""
+"جایگزین کردن تمام آدرس ها با آدرس CDN وارد شده در کادر پایین ، تمام محتوا به "
+"آدرس CDN کپی خواهند شد"
+
+#: inc/admin/ui/modules/cdn.php:59
+msgid "Disable CDN on HTTPS pages."
+msgstr ""
+
+#: inc/admin/ui/modules/cdn.php:74 inc/admin/ui/modules/cdn.php:82
+msgid "Rejected files:"
+msgstr ""
+
+#: inc/admin/ui/modules/cdn.php:87
+msgid "Specify the URL files that should not use the CDN. (one per line)."
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:7
+#: inc/admin/ui/modules/cloudflare.php:15
+msgid "CloudFlare Account Email"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:34
+#, php-format
+msgid ""
+"<strong>Note:</strong> Where do I find my CloudFlare API key? <a href=%s"
+"\"\">Learn more</a>"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:40
+#: inc/admin/ui/modules/cloudflare.php:48
+msgid "Domain"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:54
+#: inc/admin/ui/modules/cloudflare.php:62
+msgid "Development Mode"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:64
+msgid "Off"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:65
+msgid "On"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:71
+#, php-format
+msgid ""
+"Temporarily enter development mode on your website. <a href=%s\"\">Learn "
+"more</a>"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:77
+#: inc/admin/ui/modules/cloudflare.php:85
+msgid "Auto enable the optimal CloudFlare settings (props WP Rocket)"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:87
+msgid "No"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:88
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:94
+msgid ""
+"We select the best CloudFlare configuration for speed, performance grade and "
+"compatibility."
+msgstr ""
+
+#: inc/admin/ui/modules/cloudflare.php:111
+#, php-format
+msgid ""
+"Immediately purge cached resources for your website. <a href=\"%s\" target="
+"\"_blank\">Learn more</a>"
+msgstr ""
+
+#: inc/admin/ui/modules/support.php:7 inc/admin/ui/modules/support.php:15
+msgid "Summary"
+msgstr ""
+
+#: inc/admin/ui/modules/support.php:21 inc/admin/ui/modules/support.php:29
+msgid "Description"
+msgstr ""
+
+#: inc/admin/ui/modules/support.php:31
+msgid ""
+"Please provide the specific url(s) where we can see each issue. e.g. the "
+"gallery doesn't work on this page: domain.com/gallery-page"
+msgstr ""
+
+#: inc/admin/ui/modules/support.php:32
+msgid ""
+"Please let us know how we will recognize the issue or can reproduce the "
+"issue. What is supposed to happen, and what is actually happening instead?"
+msgstr ""
+
+#: inc/admin/ui/modules/support.php:33
+msgid ""
+"e.g. At the bottom of the post there are related posts which are supposed to "
+"have thumbnails, but no thumbnails are displaying."
+msgstr ""
+
+#: inc/admin/ui/modules/support.php:45
+#, php-format
+msgid ""
+"I've read the <a href=\"%s\" target=\"_blank\">documentation</a>, and I "
+"agree to allow WP Rocket to automatically detect my WordPress version and "
+"list of enabled plugins when I submit this form."
+msgstr ""
+
+#: inc/admin/ui/modules/support.php:57
+msgid "Submit the ticket"
+msgstr ""
+
+#: inc/admin/ui/modules/tools.php:9 inc/admin/ui/modules/tools.php:18
+msgid "Beta Tester"
+msgstr "توسعه دهنده بتا"
+
+#: inc/admin/ui/modules/tools.php:16
+msgid "Yes I do!"
+msgstr "فعالسازی توسعه دهنده"
+
+#: inc/admin/ui/modules/tools.php:23
+msgid ""
+"Check it to participate in the WP Rocket Beta Program and get earlier access "
+"to new versions, thanks in advance."
+msgstr ""
+"با فعالسازی توسعه دهنده بتا آخرین آپدیت ها را دریافت کنید ، هشدار ممکن است "
+"آپدیت بتا دارای مشکل باشد"
+
+#: inc/admin/ui/modules/tools.php:42
+msgid "Clear the cache for the whole site."
+msgstr "پاک کردن کش کل سایت"
+
+#: inc/admin/ui/modules/tools.php:48 inc/admin/ui/modules/tools.php:54
+#: inc/admin/ui/modules/tutorials.php:7 inc/common/admin-bar.php:141
+#: inc/common/admin-bar.php:162 inc/common/admin-bar.php:193
+msgid "Preload cache"
+msgstr "بارگزاری کش"
+
+#: inc/admin/ui/modules/tools.php:59
+msgid ""
+"Allows you to request a bot crawl to preload the cache (homepage and its "
+"internal links)."
+msgstr "اجازه فعالسازی کش جدید تنظیمات و بارگزاری سریع تر سایت"
+
+#: inc/admin/ui/modules/tools.php:66
+msgid "Settings Exporter"
+msgstr "تنظیمات برون ریزی"
+
+#: inc/admin/ui/modules/tools.php:76
+msgid "Settings Importer"
+msgstr "تنظیمات درون ریزی"
+
+#: inc/admin/ui/modules/tools.php:85
+msgid ""
+"Please backup your settings before, use the \"Download options\" button "
+"above."
+msgstr ""
+
+#: inc/admin/ui/modules/tools.php:88
+msgid "Update Rollback"
+msgstr ""
+
+#: inc/admin/ui/modules/tools.php:94
+#, php-format
+msgid "Reinstall v%s"
+msgstr ""
+
+#: inc/admin/ui/modules/tools.php:99
+#, php-format
+msgid ""
+"Is the version %s causing you some issues? You can ask for a rollback and "
+"reinstall the last version you used before."
+msgstr ""
+
+#: inc/admin/ui/modules/tutorials.php:12
+msgid ""
+"This video gives some explanations about our two crawler robots. They "
+"generate several cache files in a few seconds."
+msgstr "توضیحات تنظیمات بارگزاری کش و ربات گوگل"
+
+#: inc/admin/ui/modules/tutorials.php:19
+msgid "CSS and JavaScript minification"
+msgstr "فشرده سازی جاوا اسکریپت و CSS"
+
+#: inc/admin/ui/modules/tutorials.php:24
+msgid ""
+"This video gives some explanations about how to use the advanced processes "
+"of minification and concatenation of CSS and JavaScript files."
+msgstr "توضیحات استفاده از فرآیند پیشرفته تنظیمات جاوا اسکریپت و CSS"
+
+#: inc/admin/ui/modules/tutorials.php:31
+msgid "Preloading DNS queries"
+msgstr "بارگزاری DNS"
+
+#: inc/admin/ui/modules/tutorials.php:36
+msgid ""
+"This video helps to easily understand the advanced option of \"Preloading "
+"DNS queries\" and the use of the filter <code>rocket_dns_prefetch</code>."
+msgstr ""
+"راهنمایی گزینه های پیشرفته از  \" پیش بارگزاری شبکه تحویل محتوا \" با "
+"استفاده از فیلتر <code>rocket_dns_prefetch</code>"
+
+#: inc/admin/ui/modules/tutorials.php:43
+msgid "How to use the White Label functionality?"
+msgstr "نحوه ی استفاده از برچسب سفید"
+
+#: inc/admin/ui/modules/tutorials.php:48
+msgid "This video helps to set up a White Label version of WP Rocket."
+msgstr "آموزش راه اندازی برچسب سفید برای افزونه موشک"
+
+#: inc/admin/ui/modules/tutorials.php:55
+msgid "How to use the CDN functionality?"
+msgstr "نحوه ی استفاده از قابلیت CDN"
+
+#: inc/admin/ui/modules/tutorials.php:60
+msgid ""
+"This video helps to understand what is the CDN functionality included since "
+"WP Rocket 2.1."
+msgstr "راهنمایی استفاده از قابلیت های شبکه تحویل محتوا"
+
+#: inc/admin/ui/modules/tutorials.php:67
+msgid "How to use the CDN API?"
+msgstr "نحوه ی استفاده از CDN API"
+
+#: inc/admin/ui/modules/tutorials.php:72
+msgid ""
+"This video helps to set up the two functions <code>get_rocket_cdn_url()</"
+"code> and <code>rocket_cdn_url()</code>."
+msgstr ""
+"راهنمایی استفاده از توابع <code>get_rocket_cdn_url()</code> و "
+"<code>rocket_cdn_url()</code>"
+
+#: inc/admin/ui/modules/white-label.php:7
+#: inc/admin/ui/modules/white-label.php:16
+msgid "Plugin Name:"
+msgstr "نام افزونه :"
+
+#: inc/admin/ui/modules/white-label.php:22
+#: inc/admin/ui/modules/white-label.php:31
+msgid "Plugin URI:"
+msgstr ""
+
+#: inc/admin/ui/modules/white-label.php:37
+#: inc/admin/ui/modules/white-label.php:46
+msgid "Description:"
+msgstr "توضیحات"
+
+#: inc/admin/ui/modules/white-label.php:52
+#: inc/admin/ui/modules/white-label.php:61
+msgid "Author:"
+msgstr "نام طراح :"
+
+#: inc/admin/ui/modules/white-label.php:67
+#: inc/admin/ui/modules/white-label.php:76
+msgid "Author URI:"
+msgstr "آدرس طراح :"
+
+#: inc/admin/ui/modules/white-label.php:88
+msgid "Reset White Label values to default"
+msgstr "بازگردانی به پیش فرض"
+
+#: inc/admin/ui/modules/white-label.php:93
+msgid ""
+"If you change anything, the tutorial + FAQ + Support tabs will be hidden."
+msgstr ""
+"اگر تنظیمات را تغییر دهید بخش آموزش ، مستندات ، پشتیبانی و لایسنس مخفی میشوند"
+
+#: inc/admin/ui/notices.php:26 inc/admin/ui/notices.php:30
+#, php-format
+msgid "<b>%s</b> can not be deactivated because of <code>%s</code>."
+msgstr ""
+
+#: inc/admin/ui/notices.php:26
+msgid ""
+"This constant is still defined in <code>wp-config.php</code> file and its "
+"value must be set to <code>false</code>."
+msgstr ""
+
+#: inc/admin/ui/notices.php:26
+#, php-format
+msgid "Maybe we do not have the writing permissions for <code>%s</code>."
+msgstr ""
+
+#: inc/admin/ui/notices.php:26 inc/admin/ui/notices.php:30
+msgid ""
+"Please give us permissions or resolve the problem yourself. Then retry "
+"deactivation."
+msgstr ""
+
+#: inc/admin/ui/notices.php:30
+msgid "This file is not writable and we can not remove these directives."
+msgstr ""
+
+#: inc/admin/ui/notices.php:30
+#, php-format
+msgid "Maybe we do not have writing permissions for <code>%s</code>."
+msgstr ""
+
+#: inc/admin/ui/notices.php:66
+msgid "You can still force the deactivation by clicking here."
+msgstr ""
+
+#: inc/admin/ui/notices.php:92
+#, php-format
+msgid ""
+"<b>%s</b>: One or more extensions have been enabled or disabled, do not "
+"forget to clear the cache if necessary."
+msgstr ""
+"<b>%s</b> بعد از فعال یا غیرفعال سازی ویژگی یا افزونه پا کردن کش ضروری است"
+
+#: inc/admin/ui/notices.php:191
+#, php-format
+msgid ""
+"<b>%s</b>: The following plugins are not compatible with this plugin and may "
+"cause unexpected results:"
+msgstr ""
+
+#: inc/admin/ui/notices.php:197
+msgid "Deactivate"
+msgstr "غیرفعال"
+
+#: inc/admin/ui/notices.php:223
+#, php-format
+msgid ""
+"<b>%s</b>: A custom permalink structure is required for the plugin to work "
+"properly. Please go to <a href=\"%s\">Permalink</a> to configure it."
+msgstr ""
+"<b>%s</b>:  برای درست کار کردن افزونه به پیوند یکتا بروید و ساختار دلخواه را "
+"انتخاب کنید ، رفتن به <a href=\"%s\">پیوند یکتا</a>"
+
+#: inc/admin/ui/notices.php:254
+#, php-format
+msgid ""
+"<b>%s</b>: It seems we don't have <a href=\"%s\" target=\"_blank\">writing "
+"permissions</a> on <code>wp-config.php</code> file or the value of the "
+"constant <code>WP_CACHE</code> is set to <code>false</code>"
+msgstr ""
+
+#: inc/admin/ui/notices.php:256
+msgid ""
+"To fix this you have to set writing permissions for <code>wp-config.php</"
+"code> and then save the settings again."
+msgstr ""
+
+#: inc/admin/ui/notices.php:258
+msgid ""
+"If the message persists, you have to put the following code in your <code>wp-"
+"config.php</code> file so that it works correctly. Click on the field and "
+"press Ctrl-A to select all."
+msgstr ""
+
+#: inc/admin/ui/notices.php:299
+#, php-format
+msgid ""
+"If you had <a href=\"%1$s\" target=\"_blank\">writing permissions</a> on "
+"<code>%2$s</code> file, <b>%3$s</b> could do this automatically. This is not "
+"the case, here is the code you should add in your <code>%2$s</code> file for "
+"<b>%3$s</b> to work properly."
+msgstr ""
+
+#: inc/admin/ui/notices.php:332
+#, php-format
+msgid ""
+"It seems that the <code>%s</code> file is not ours. Save the settings, we "
+"will automatically recreate the correct one. If it's still not working, "
+"please delete it and save again."
+msgstr ""
+
+#: inc/admin/ui/notices.php:361
+#, php-format
+msgid ""
+"If you had <a href=\"%1$s\" target=\"_blank\">writing permissions</a> on "
+"<code>.htaccess</code> file, <b>%2$s</b> could do this automatically. This "
+"is not the case, so here are the rewrite rules you have to put in your "
+"<code>.htaccess</code> file for <b>%2$s</b> to work correctly. Click on the "
+"field and press Ctrl-A to select all."
+msgstr ""
+
+#: inc/admin/ui/notices.php:361
+msgid ""
+"<strong>Warning:</strong> This message will popup again and its content may "
+"be updated when saving the options"
+msgstr ""
+
+#: inc/admin/ui/notices.php:390
+#, php-format
+msgid ""
+"Be careful, you don't have <a href=\"%1$s\" target=\"_blank\">writing "
+"permissions</a> on <b>%3$s</b> domain configuration folder (<code>%2$s</"
+"code>). To make <b>%3$s</b> work properly, please CHMOD <code>755</code> or "
+"<code>775</code> or <code>777</code> this folder.<br/>When the problem is "
+"solved, thank you to save the %3$s options to generate the configuration "
+"file."
+msgstr ""
+
+#: inc/admin/ui/notices.php:418
+#, php-format
+msgid ""
+"Be careful, you don't have <a href=\"%1$s\" target=\"_blank\">writing "
+"permissions</a> on <b>%3$s</b> cache folder (<code>%2$s</code>). For <b>"
+"%3$s</b> works properly, please CHMOD <code>755</code> or <code>775</code> "
+"or <code>777</code> this folder."
+msgstr ""
+
+#: inc/admin/ui/notices.php:447
+#, php-format
+msgid ""
+"Be careful, you don't have <a href=\"%1$s\" target=\"_blank\">writing "
+"permissions</a> on <b>%3$s</b> minified cache folder (<code>%2$s</code>). To "
+"make <b>%3$s</b> work properly, please CHMOD <code>755</code> or <code>775</"
+"code> or <code>777</code> this folder."
+msgstr ""
+
+#: inc/admin/ui/notices.php:472
+msgid "Thank you. Your license has been successfully validated!"
+msgstr "ممنون ، لایسنس شما معتبر است"
+
+#: inc/admin/ui/notices.php:473
+#, php-format
+msgid "Key: <code>%s</code><br>Email: <i>%s</i>"
+msgstr "کد :<code>%s</code><br>ایمیل :<i>%s</i>"
+
+#: inc/admin/updater.php:120 inc/admin/updater.php:127
+#, php-format
+msgid ""
+"An unexpected error occurred. Something may be wrong with WP-Rocket.me or "
+"this server&#8217;s configuration. If you continue to have problems, please "
+"try the <a href=\"%s\">support forums</a>."
+msgstr ""
+
+#: inc/common/admin-bar.php:90 inc/common/admin-bar.php:184
+#: inc/functions/i18n.php:38 inc/functions/i18n.php:45
+msgid "All languages"
+msgstr "زبان ها"
+
+#: inc/common/admin-bar.php:115
+msgid "Clear this post"
+msgstr "حذف نوشته"
+
+#: inc/common/admin-bar.php:127
+msgid "Purge this URL"
+msgstr "پاک سازی آدرس"
+
+#: inc/common/admin-bar.php:204
+msgid "Documentation"
+msgstr ""
+
+#: inc/common/cron.php:17
+#, php-format
+msgid "%s clear"
+msgstr "%s پاک کردن"
+
+#: inc/functions/admin.php:13
+#, php-format
+msgid ""
+"Last step before enjoying the high performances of our plugin, please <a "
+"href=\"%s\">Enter you API key</a> here."
+msgstr ""
+
+#: inc/functions/options.php:446
+msgid "Your license is not valid."
+msgstr ""
+
+#: inc/functions/options.php:447
+msgid "You cannot add more websites. Upgrade your account."
+msgstr ""
+
+#: inc/functions/options.php:448
+msgid "This website is not allowed."
+msgstr ""
+
+#: inc/functions/options.php:449
+msgid "This license key is not accepted."
+msgstr ""
+
+#~ msgid "rock"
+#~ msgstr "موشک"
+
+#~ msgid "How many sites is my key valid for?"
+#~ msgstr "چگونگی روش فعالسازی افزونه موشک"
+
+#~ msgid "What exactly does WP Rocket do?"
+#~ msgstr "چگونگی فعالیت افزونه موشک"
+
+#~ msgid "I have turned any of the basic options on, does WP Rocket work?"
+#~ msgstr "پیکربندی روش فعالیت تنظیمات عمومی"
+
+#~ msgid ""
+#~ "What should I do in case of a problem with WP Rocket that I can't solve?"
+#~ msgstr "چگونگی برطرف کردن مشکلات با افزونه موشک"
+
+#~ msgid "My license has expired, what should I do?"
+#~ msgstr "مدت زمان استفاده از لایسنس"
+
+#~ msgid ""
+#~ "I want to change the URL of my website associated with my license, what "
+#~ "should I do?"
+#~ msgstr "چگونگی تغییر آدرس دامین و استفاده از لایسنس"
+
+#~ msgid "Which tools should I use to measure the performance of my website?"
+#~ msgstr "چگونگی استفاده از ابزار برای اندازه گیری عملکرد سایت"
+
+#~ msgid "Does WP Rocket work with default permalinks?"
+#~ msgstr "مشکل استفاده از پیوند یکتا"
+
+#~ msgid "Which web servers WP Rocket is compatible with?"
+#~ msgstr "سازگار بودن افزونه موشک با وب سرور ها"
+
+#~ msgid ""
+#~ "Reports from PageSpeed and YSlow tell me that the content is not gziped "
+#~ "and/or did not expire, what should I do?"
+#~ msgstr "رفع مشکل کار نکردن افزونه موشک"
+
+#~ msgid ""
+#~ "Is WP Rocket compatible with others cache plugins like WP Super Cache or "
+#~ "W3 Total Cache?"
+#~ msgstr "سازگار بودن افزونه موشک با افزونه توتال کش"
+
+#~ msgid ""
+#~ "Is WP Rocket compatible with WP Touch, WordPress Mobile Pack and WP "
+#~ "Mobile Detector?"
+#~ msgstr "سازگار بودن افزونه موشک با صفحه نمایش لمسی و موبایل"
+
+#~ msgid "Is WP Rocket compatible with WooCommerce?"
+#~ msgstr "سازگار بودن افزونه موشک با ووکامرس"
+
+#~ msgid "Is WP Rocket compatible with WPML or qTranslate?"
+#~ msgstr "سازگار بودن افزونه موشک با افزونه های مترجم"
+
+#~ msgid "What are the minification and concatenation of files?"
+#~ msgstr "کوچک سازی و الحاق فایل ها"
+
+#~ msgid "What should I do if WP Rocket distorts my website display?"
+#~ msgstr "مشل نمایش سایت بعد از استفاده از تنظیمات عمومی"
+
+#~ msgid "How often is the cache updated?"
+#~ msgstr "چگونگی بروزرسانی کش"
+
+#~ msgid "How to exclude a particular page from caching?"
+#~ msgstr "چگونگی حذف یک برگه از کش شدن"
+
+#~ msgid "How do the robots preload files from the cache?"
+#~ msgstr "چگونگی کش شدن فایل ها بعد از بروز رسانی"
+
+#~ msgid ""
+#~ "A key is valid for one domain name. If you have example.com, that makes "
+#~ "one key."
+#~ msgstr ""
+#~ "افزونه با استفاده از نام دامین فعالسازی میشود ، نام دامین را برای پشتیبان "
+#~ "ارسال کنید تا افزونه فعال سازی شود"
+
+#~ msgid ""
+#~ "If you have example.com, www.example.com, dev.example.com, demo.example."
+#~ "com, example.com/dev/, example.com/demo/ all these sites depend on the "
+#~ "same WP Rocket key."
+#~ msgstr "برای ساب دامین ها نیازی به فعالسازی افزونه نیست"
+
+#~ msgid ""
+#~ "However, a different base domain name, like example.org or example2.com, "
+#~ "would require an additional key each."
+#~ msgstr "در صورت نیاز با ما تماس حاصل فرمایید."
+
+#~ msgid "WP Rocket is a full cache plugin that comes with many features:"
+#~ msgstr "ویژگی های افزونه موشک :"
+
+#~ msgid "Caching of all the pages for quick viewing"
+#~ msgstr "کش تمامی برگه های وبسایت"
+
+#~ msgid "Preloading the cache of files using two bots in Python"
+#~ msgstr "پیش بارگزاری کش از فایل ها با استفاده از 2 روبات در پایتون"
+
+#~ msgid "Reduction of the number of HTTP requests to reduce loading time"
+#~ msgstr "کاهش درخواست HTTP برای کاهش زمان بارگزاری"
+
+#~ msgid "Decreasing bandwidth usage with GZIP compression"
+#~ msgstr "کاهش استفاده از پهنای باند با فشرده سازی GZIP"
+
+#~ msgid "Management of the headers (expires, etags...)"
+#~ msgstr "مدیریت سربرگ (برچسب ها)"
+
+#~ msgid "Minification and concatenation of JS and CSS files"
+#~ msgstr "کوچک سازی فایل های JS  و CSS"
+
+#~ msgid "Deferred loading of images (LazyLoad)"
+#~ msgstr "بارگزاری تنبل تصاویر وبسایت"
+
+#~ msgid "Deferred loading of JavaScript files"
+#~ msgstr "باگزاری تنبل فایل های جاوا اسکریپت"
+
+#~ msgid "Image Optimisation"
+#~ msgstr "بهینه سازی تصویر"
+
+#~ msgid "Yes."
+#~ msgstr "بله"
+
+#~ msgid ""
+#~ "The basic options are additional optimizations that could be described as "
+#~ "bonuses. These options are not essential to improve the loading time of "
+#~ "your website."
+#~ msgstr ""
+#~ "گزینه های اساسی تنظیمات عمومی ، این گزینه ها برای بهبود زمان بارگزاری "
+#~ "ضروری هستند"
+
+#~ msgid ""
+#~ "Whatever your WP Rocket configuration is, the following features will "
+#~ "still be active:"
+#~ msgstr "با پیکربندی افزونه موشک ویژگی های زیر فعال خواهند شد :"
+
+#~ msgid "Decrease bandwidth usage with our GZIP compression"
+#~ msgstr "کاهش استفاده از پهنای باند با فشرده سازی GZIP"
+
+#~ msgid ""
+#~ "If none of the answers from our FAQ provide a solution to your problem, "
+#~ "you can let us know about your problem on our <a href=\"%s\" target="
+#~ "\"_blank\">support</a>. We will answer you as soon as possible."
+#~ msgstr ""
+#~ "اگر مشکلی در تنظیمات یا فعالسازی یا تداخل افزونه موشک دارید میتوانید مشکل "
+#~ "خود را به  <a href=\"%s\" target=\"_blank\">پشتیبان</a> گزارش دهید"
+
+#~ msgid ""
+#~ "Don't panic, WP Rocket will continue to operate without a problem. You "
+#~ "will receive an email telling you that your license will soon expire. You "
+#~ "will find a renewal link which will be active even after the expiration."
+#~ msgstr ""
+#~ "یکی از نگرانی های خریداران افزونه موشک مدت استفاده از لایسنس میباشد ، "
+#~ "افزونه موشک دارای بروزرسانی یک ساله است و لی به دلیل تمدید لایسنس ها از "
+#~ "طرف ما نگران بروز رسانی نباشید و میتوانید همیشه از بروز رسانی ها استفاده "
+#~ "کنید"
+
+#~ msgid ""
+#~ "I want to change the URL of my site associated with my license, what "
+#~ "should I do?"
+#~ msgstr "چگونگی تغییر لایسنس از یک دامین به دامین دیگر"
+
+#~ msgid ""
+#~ "You must contact us by email (<a href=\"mailto:contact@wp-rocket.me"
+#~ "\">contact@wp-rocket.me</a>) indicating the reason for your change. If "
+#~ "accepted, the amendment will be carried out by the WP Rocket team."
+#~ msgstr ""
+#~ "شما میتوانید تغییر دامین را به (<a href=\"mailto:hosseini@jiringweb.com"
+#~ "\">پشتیبان</a>) ارسال کنید تا لایسنس برای دامین شما منتقل شود"
+
+#~ msgid "Which tools should I use to measure the performance of my site?"
+#~ msgstr "چگونگی اندازه گیری عملکرد افزونه موشک"
+
+#~ msgid ""
+#~ "You can measure the performance of your website using the following tools:"
+#~ msgstr "ابزار های اندازه گیری عملکرد وبسایت :"
+
+#~ msgid "These tools give you two indications:"
+#~ msgstr "این ابزار ها به شما دو نشانه میدید :"
+
+#~ msgid "a global note of good practices to apply"
+#~ msgstr "بهینه سازی بخش های وبسایت"
+
+#~ msgid "a loading time"
+#~ msgstr "مدت زمان بارگزاری وبسایت"
+
+#~ msgid ""
+#~ "These data are indicative and do not necessarily reflect the actual "
+#~ "display speed of your website"
+#~ msgstr "این داده ها سرعت بارگزای واقعی وبسایت شما را نمایش میدهند"
+
+#~ msgid ""
+#~ "For tests closest to reality load time we recommend using <a href=\"%s\" "
+#~ "target=\"_blank\">Pingdom Tools</a>."
+#~ msgstr ""
+#~ "برای بررسی دقیق سرعت بارگزاری ابزار <a href=\"%s\" target=\"_blank"
+#~ "\">Pingdom Tools</a> پیشنهاد میشود"
+
+#~ msgid "No."
+#~ msgstr "خیر"
+
+#~ msgid ""
+#~ "It's necessary to have custom permalinks of the type <code>%s</code> "
+#~ "rather than <code>%s</code>."
+#~ msgstr ""
+#~ "اگر نیار به استفاده از پیوند یکتا دارید از <code>%s</code> به جای <code>"
+#~ "%s</code> استفاده کنید"
+
+#~ msgid "Which web servers is WP Rocket compatible with?"
+#~ msgstr "سازگار بودن افزونه موشک با وب سرور ها"
+
+#~ msgid ""
+#~ "WP Rocket is compatible with <strong>Apache, NGINX, Microsoft IIS et "
+#~ "Litepseed</strong> web servers."
+#~ msgstr ""
+#~ "افزونه موشک سازگاری کاملی با وب سرور های <strong>Apache, NGINX, Microsoft "
+#~ "IIS et Litepseed</strong> دارد"
+
+#~ msgid ""
+#~ "WP Rocket automatically adds optimal timeout rules for static files and "
+#~ "compresses them using gzip. If they are not applied, it is possible that "
+#~ "there is a plugin conflict (exemple: <a href=\"%s\" target=\"_blank\">WP "
+#~ "Retina 2x</a>). Try temporarily disabling all plugins except WP Rocket "
+#~ "and retest."
+#~ msgstr ""
+#~ "افزونه موشک به طور خودکار از قوانین مطلوب برای فایل های استاتیک و فشرده "
+#~ "استفاده میکند ، ممکن است این قوانین باعث تداخل افزونه مشوک با افزونه های "
+#~ "دیگر شوند (مانند : <a href=\"%s\" target=\"_blank\">WP Retina 2x</a>) ، "
+#~ "به همین دلیل اگر مشکلی دیدید افزونه های دیگر را غیرفعال کنید"
+
+#~ msgid ""
+#~ "It's imperative to <strong>remove all other optimization plugins</strong> "
+#~ "(cache, minification, LazyLoad) PRIOR to the activation of WP Rocket."
+#~ msgstr ""
+#~ "افزونه موشک را به تنهایی استفاده کنید و تمامی افزونه های بهینه سازی سرعت "
+#~ "وبسایت (کش, بهینه ساز, بارگزاری تنبل) را حذف کنید"
+
+#~ msgid ""
+#~ "On the other hand, in the basic options, you must uncheck the "
+#~ "<code>enable caching for mobile devices</code>."
+#~ msgstr ""
+#~ "برای استفاده از این قابلیت<code> کش برای موبایل </code>را در تنظیمات "
+#~ "عمومی فعال کنید"
+
+#~ msgid ""
+#~ "However, you should exclude cart and checkout pages from caching. This is "
+#~ "done from the advanced option <code>Never cache the following pages</"
+#~ "code> by adding the following values:"
+#~ msgstr ""
+#~ "برای استفاده از این قابلیت آدرس برگه های ووکامرس را در<code> کش نشدن برگه "
+#~ "ها  </code> در تنظیمات پشرفته وارد کنید"
+
+#~ msgid "/cart/"
+#~ msgstr "/cart/"
+
+#~ msgid "/checkout/(.*)"
+#~ msgstr "/checkout/(.*)"
+
+#~ msgid ""
+#~ "You even have the possibility to empty/preload the cache for a specific "
+#~ "language or for all languages at the same time."
+#~ msgstr ""
+#~ "شما میتوانید به راحتی از اوناع افزونه های مترجم وبسایت استفادکنید و در "
+#~ "تمام زبان ها هیچ مشکلی نخواهید داشت"
+
+#~ msgid ""
+#~ "Minification is the process of removing all unnecessary characters in "
+#~ "HTML, CSS or JavaScript files: spaces, comments, etc... This reduces the "
+#~ "size of the files. Thus, browsers read these files faster."
+#~ msgstr ""
+#~ "با کوچک سازی فایل هار غیرضروری HTML ، CSS و جاوا اسکریپت باعث بارگزاری "
+#~ "سریعتر وبسایت توسط مرورگر ها می شود"
+
+#~ msgid ""
+#~ "Concatenation is to consolidate a set of files into one. This has the "
+#~ "effect of reducing the number of HTTP requests."
+#~ msgstr "الحاق مجموعه ای از فایل ها باعث کاهش درخواست HTTP  میشود"
+
+#~ msgid "What should I do if WP Rocket distorts my site display?"
+#~ msgstr "مشکل نمایش سایت بعد از تنظیمات عمومی"
+
+#~ msgid ""
+#~ "There is a good chance that the deformation is caused by the minification "
+#~ "of HTML, CSS or JavaScript files."
+#~ msgstr ""
+#~ "گزینه های بهینه سازی فایل ها HTML ، CSS ، JS را در تنظیمات عمومی غیر فعال "
+#~ "کنید"
+
+#~ msgid ""
+#~ "The cache is automatically refreshed at every update of your content (add/"
+#~ "edit/delete of an article, publication of a comment, etc..)."
+#~ msgstr "کش به طور خودکار هر روز بروز رسانی میشود"
+
+#~ msgid ""
+#~ "In the basic options, you can also specify a period of automatic cleaning "
+#~ "of the cache."
+#~ msgstr ""
+#~ "شما میتوانید در تنظیمات عمومی در بخش زمانبدنی پاک کردن کش زمان پاک کردن و "
+#~ "بروز رسانی کش را مشخص کنید"
+
+#~ msgid ""
+#~ "In advanced options, it's possible to specify URLs to not cache. For "
+#~ "this, you must add the URLs to exclude in the input field <code>Never "
+#~ "cache the following pages</code>."
+#~ msgstr ""
+#~ "شما میتوانید در تنظیمات پیشرفته و بخش<code> کش نشدن برگه ها </"
+#~ "code>استفاده کنید و آدرس برگه ها را در این بخش وارد کنید"
+
+#~ msgid ""
+#~ "A page is only cached on its first visit. To bypass this, we have "
+#~ "developed two robots (in Python) that crawl the pages of your website."
+#~ msgstr ""
+#~ "کش برگه ها با استفاده از دو ربات پایتون بعد از اولین بازدید بروز رسانی "
+#~ "میشوند"
+
+#~ msgid ""
+#~ "The first visits your site when using the button \"Preload the cache\". "
+#~ "The second will automatically visit your site as soon as you are going to "
+#~ "create/edit/delete an article."
+#~ msgstr ""
+#~ "شما به صورت دستی نیز میتوانید این کار را انجام دهید در ابزار ها و بخش "
+#~ "بارگزاری کش ، یا در نوار مدیریت بخش تنظیمات موشک و بارگزاری کش"
+
+#~ msgid "Enable Lazy loading images."
+#~ msgstr "فعالسازی بارگزاری تنبل تصاویر"
+
+#~ msgid ""
+#~ "LazyLoad displays images on a page only when they are visible to the user."
+#~ msgstr ""
+#~ "نمایش تصاویر در یک برگه زمانی انجام میشود که کاربر به نزدیک عکس برسد"
+
+#~ msgid "Purche"
+#~ msgstr "لایسنس"
+
+#~ msgid "activ"
+#~ msgstr "لایسنس شما فعال است ، ممنون از خرید شما !"
+
+#~ msgid "Suppor"
+#~ msgstr "پشتیبانی"
+
+#~ msgid "Visit the Support"
+#~ msgstr "پشتیبانی توسط جیرینگ وب"
+
+#~ msgid ""
+#~ "If none of the FAQ answers resolves your problem, you can send your issue "
+#~ "to our free support. We will reply as soon as possible."
+#~ msgstr ""
+#~ "شما میتوانید مشکل خود را به پشتیبانی رایگان ما ارسال کنید ، و ما در اسرع "
+#~ "وقت پاسخگوی شما خواهیم بود"
+
+#~ msgid "version"
+#~ msgstr "نسخه"
+
+#~ msgid "rockt"
+#~ msgstr "تنظیمات موشک"
+
+#~ msgid "The best WordPress performance plugin."
+#~ msgstr "افزونه بهینه سازی سایت  و افزایش سرعت بارگزاری"
+
+#~ msgid "javid"
+#~ msgstr "جاوید راد"
+
+#~ msgid ""
+#~ "Connected users don't have the cached version of the website. We "
+#~ "recommend you, to browse your website disconnected."
+#~ msgstr ""
+#~ "کابرارن متصل شده از وبسایت کش شده نسخه ای ندارند ، پنج دقیقه اتصال مرورگر "
+#~ "با سایت را قطع کنید"

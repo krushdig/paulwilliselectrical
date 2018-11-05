@@ -1,0 +1,15 @@
+.request_call a {
+    border: 1px solid;
+    background: #f96408;
+    color: #000000;
+    padding: 3px 10px;
+}
+
+
+h3.request_heading {
+    background: #ed1f7f;
+    color: #fff;
+    text-align: center;
+    padding: 2% 0;
+    border-radius: 6px;
+}
