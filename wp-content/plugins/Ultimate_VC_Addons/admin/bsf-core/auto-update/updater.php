@@ -142,20 +142,37 @@ if ( ! function_exists( 'bsf_check_product_update' ) ) {
 				foreach ( $products as $id => $product ) {
 					if ( array_key_exists( "status", $product ) && ( $product['status'] === 'registered' ) ) {
 						if ( array_key_exists( 'by_the7', $product ) ) {
-							foreach($remote_versions as  $rkey => &$remote_data ){
-								if (isset($remote_data->id) && $remote_data->id == $product['id']){
-									$remote_item = &$remote_data;
-									break;
+							if($remote_versions !== false && !empty($remote_versions))
+							{
+								if(!empty($remote_versions)){
+									foreach($remote_versions as  $rkey => &$remote_data ){
+										if (isset($remote_data->id) && $remote_data->id == $product['id']){
+											$remote_item_key = $rkey;
+											break;
+										}
+									}
 								}
 							}
-							foreach($dt_remote_versions as  $rkey => &$remote_data ){
-								if (isset($remote_data->id) && $remote_data->id == $product['id']){
-									$dt_remote_item = &$remote_data;
-									break;
+							if($remote_versions !== false)
+							{
+								if(!empty($remote_versions)){
+									foreach($dt_remote_versions as  $rkey => &$remote_data ){
+										if (isset($remote_data->id) && $remote_data->id == $product['id']){
+											$dt_remote_item_key = $rkey;
+											break;
+										}
+									}
 								}
 							}
-							if (isset($remote_item) && isset($dt_remote_item)){
-								$remote_item = $dt_remote_item;
+
+							if (isset($remote_item_key) && !isset($dt_remote_item_key)){
+								unset($remote_versions[$remote_item_key]);
+							}
+							else if (isset($remote_item_key) && isset($dt_remote_item_key)){
+								$remote_versions[$remote_item_key] = $dt_remote_versions[$dt_remote_item_key];
+							}
+							else if (!isset($remote_item_key) && isset($dt_remote_item_key)){
+								$remote_versions[] = $dt_remote_versions[$dt_remote_item_key];
 							}
 						}
 					}

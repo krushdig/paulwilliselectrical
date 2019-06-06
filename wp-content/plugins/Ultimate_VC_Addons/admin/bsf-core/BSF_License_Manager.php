@@ -593,8 +593,14 @@ if ( ! class_exists( 'BSF_License_Manager' ) ) {
 		 */
 		public function render_popup_form_markup() {
 
+			$current_screen = get_current_screen();
+
 			// Bail if not on plugins.php screen.
-			if ( 'plugins' !== get_current_screen()->id && 'plugins-network' !== get_current_screen()->id ) {
+			if( ! is_object( $current_screen ) && null === $current_screen ) {
+				return;
+			}
+			
+			if ( 'plugins' !== $current_screen->id && 'plugins-network' !== $current_screen->id ) {
 				return;
 			}
 
@@ -610,13 +616,12 @@ if ( ! class_exists( 'BSF_License_Manager' ) ) {
 						</button>
 
 						<?php
-						if ( 'edd' === $product['license_from_type'] ) {
-							echo bsf_license_activation_form( $product );
-						}
-
-						if ( 'envato' === $product['license_from_type'] ) {
-							echo bsf_envato_register( $product );
-						}
+							$licence_form_method = isset( $_GET[ 'license-form-method' ] ) ? sanitize_text_field( $_GET[ 'license-form-method' ] ) : '';
+							if ( 'edd' === $product['license_from_type'] || 'license-key' === $licence_form_method ) {
+								echo bsf_license_activation_form( $product );
+							} elseif ( 'envato' === $product['license_from_type'] || 'oauth' === $licence_form_method ) {
+								echo bsf_envato_register( $product );
+							}
 
 							do_action( "bsf_inlne_license_form_footer_{$product[ 'license_from_type' ]}", $product_id );
 

@@ -339,7 +339,24 @@
 					                    		endforeach;
 					                    	?>
 										</td>
-					                </tr>
+									</tr>
+
+									<?php
+
+										$license_form_url = add_query_arg( array(
+											'bsf-inline-license-form' 	=> '6892199',
+											'license-form-method' 		=> 'license-key'
+										), network_admin_url( 'plugins.php' ) );
+
+									?>
+									
+									<tr valign="top" class="ult-theme-support-row-dependant" style="<?php echo $theme_dependant; ?>">
+										<th scope="row"><?php echo __("Activate License using purchase key", "ultimate_vc"); ?></th>
+										<td>
+			                            	<a class="button button-secondarry" href="<?php echo esc_url( $license_form_url ); ?>"><?php echo _e( 'Purchase Key License Form', 'ultimate_vc' )?></a>
+										</td>
+									</tr>
+
 			                    </tbody>
 			              	</table>
 			            </form>

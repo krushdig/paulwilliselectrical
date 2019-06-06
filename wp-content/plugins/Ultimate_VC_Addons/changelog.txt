@@ -1,3 +1,22 @@
+3.18.0 - 18 Feb 2019
+- New: Introduce Ribbon element.
+- Improvement: Added the animation option for a marker in Google Map.
+- Fix: Advanced Carousel rendering issue when page refresh.
+- Fix: PHP Notice Undefined license-form-method variable.
+
+3.17.1 - 6 Dec 2018
+- Improvement: Added Text transform option for Fancy text.
+- Improvement: Update WPML xml file for Compatibility.
+- Improvement: Added license key purchase form button in debug screen.
+- Fix: Spacing issue in Fancy text.
+- Fix: Advanced Carousel doesn't slide properly with one at a time option on Tablet and Mobile devices.
+
+3.17.0 - 29 Oct 2018
+- New: Introduce Video element.
+- Improvement: Toolip will display in case of link in Just Icon.
+- Fix: Fancy Text not consistent in slide up option.
+- Removed purchase key License activation method as the API for this is now being deprecated by Envato.
+
 3.16.26 - 27-Sept-2018
 - Improvement: Added Border radius option for Flip Box.
 - Fix: Advanced Tab collapsed when the value is not set for the Active tab.

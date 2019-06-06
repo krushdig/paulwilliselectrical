@@ -328,8 +328,7 @@ class BSF_Envato_Activate {
 
 	public function inline_alternate_method_link( $html, $bsf_product_id ) {
 		$is_active = $this->license_manager->bsf_is_active_license( $bsf_product_id );
-		$method    = isset( $_GET['activation_method'] ) ? esc_attr( $_GET['activation_method'] ) : 'oauth';
-
+		
 		$privacy_policy_link   = $this->license_manager->bsf_get_product_info( $bsf_product_id, 'privacy_policy' );
 		$terms_conditions_link = $this->license_manager->bsf_get_product_info( $bsf_product_id, 'terms_conditions' );
 
@@ -342,28 +341,11 @@ class BSF_Envato_Activate {
 
 		if ( isset( $terms_conditions_link ) ) {
 			$html .= sprintf(
-				'<a class="license-form-external-links" target="_blank" href="%s">Terms & Conditions</a> | ',
+				'<a class="license-form-external-links" target="_blank" href="%s">Terms & Conditions</a>',
 				$terms_conditions_link
 			);
 		}
 
-		if ( $method === 'license-key' ) {
-			$alternate_method_name = 'Envato API';
-			$alternate_method_slug = 'envato-oauth';
-		} else {
-			$alternate_method_name = 'License Key';
-			$alternate_method_slug = 'license-key';
-		}
-
-		$html .= sprintf(
-			'<a class="license-form-external-links" href="%s">Activate license using ' . $alternate_method_name . '</a>',
-			add_query_arg(
-				array(
-					'activation_method'       => $alternate_method_slug,
-					'bsf-inline-license-form' => $bsf_product_id,
-				)
-			)
-		);
 
 		return $html;
 	}

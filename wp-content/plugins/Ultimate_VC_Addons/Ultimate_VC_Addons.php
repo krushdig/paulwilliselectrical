@@ -4,7 +4,7 @@ Plugin Name: The7 Ultimate Addons for WPBakery Page Builder
 Plugin URI: https://brainstormforce.com/demos/ultimate/
 Author: Brainstorm Force
 Author URI: https://www.brainstormforce.com
-Version: 3.16.26
+Version: 3.18.0
 Description: Includes WPBakery Page Builder premium addon elements like Icon, Info Box, Interactive Banner, Flip Box, Info List & Counter. Best of all - provides A Font Icon Manager allowing users to upload / delete custom icon fonts.
 Text Domain: ultimate_vc
 License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -23,7 +23,7 @@ if ( ! defined( '__ULTIMATE_ROOT__' ) ) {
 }
 
 if ( ! defined( 'ULTIMATE_VERSION' ) ) {
-	define( 'ULTIMATE_VERSION', '3.16.26' );
+	define( 'ULTIMATE_VERSION', '3.18.0' );
 }
 
 if ( ! defined( 'ULTIMATE_URL' ) ) {
@@ -488,6 +488,8 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 					|| stripos( $post_content, '[ult_team')
 					|| stripos( $post_content, '[ultimate_fancytext')
 					|| stripos( $post_content, '[ult_range_slider')
+					|| stripos( $post_content, '[ultimate_video')
+					|| stripos( $post_content, '[ultimate_ribbon')
 					|| $found_ultimate_backgrounds
 				) {
 				return true;
@@ -677,7 +679,7 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 				}
 			}
 
-			$ultimate_global_scripts = bsf_get_option('ultimate_global_scripts');
+			$ultimate_global_scripts = apply_filters( 'ultimate_global_scripts', bsf_get_option('ultimate_global_scripts') );
 			if($ultimate_global_scripts === 'enable') {
 				wp_enqueue_script('ultimate-modernizr');
 				wp_enqueue_script('jquery_ui');
@@ -821,6 +823,12 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 					}
 					if( stripos( $post_content, '[ultimate_heading') ) {
 						wp_enqueue_script("ultimate-headings-script");
+					}
+					if( stripos( $post_content, '[ultimate_video') ) {
+						wp_enqueue_script("ultimate-videos-script");
+					}
+					if( stripos( $post_content, '[ultimate_ribbon') ) {
+						wp_enqueue_script("ultimate-ribbons-script");
 					}
 					if( stripos( $post_content, '[ultimate_carousel') ) {
 						wp_enqueue_script('ult-slick');
@@ -991,6 +999,12 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 					}
 					if( stripos( $post_content, '[ultimate_heading') ) {
 						wp_enqueue_style("ultimate-headings-style");
+					}
+					if( stripos( $post_content, '[ultimate_video') ) {
+						wp_enqueue_style("ultimate-videos-style");
+					}
+					if( stripos( $post_content, '[ultimate_ribbon') ) {
+						wp_enqueue_style("ultimate-ribbons-style");
 					}
 					if( stripos( $post_content, '[ultimate_icons') || stripos( $post_content, '[single_icon')) {
 						wp_enqueue_style('ultimate-animate');
@@ -1194,6 +1208,8 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 				'ultimate_sticky_section',
 				'ultimate_team',
 				'ultimate_range_slider',
+				'ultimate_videos',
+				'ultimate_ribbons',
 			);
 			$ultimate_modules = get_option('ultimate_modules');
 			if(!$ultimate_modules && !is_array($ultimate_modules)){
@@ -1253,8 +1269,9 @@ if ( ! class_exists( 'Ultimate_VC_Addons' ) ) {
 						if (in_array($id, $BRAINSTORM_PRODUCTS)) {
 							if ( ! array_key_exists( "status", $product ) ||
 							     ( array_key_exists( "status", $product ) && ( $product['status'] !== 'registered' ) ) ||
-							     (!array_key_exists("by_the7", $product) && array_key_exists("purchase_key", $product) && $product['purchase_key'] === $the7_purchase_code)) {
-								$isActivate = true;
+							     (!array_key_exists("by_the7", $product) && array_key_exists("purchase_key", $product) && ($product['purchase_key'] === $the7_purchase_code)) ||
+							     (array_key_exists("purchase_key", $product) && (empty($product['purchase_key'])) &&  ( array_key_exists( "status", $product ) && ( $product['status'] === 'registered' )))){
+									$isActivate = true;
 							}
 						}
 						if ($isActivate) {

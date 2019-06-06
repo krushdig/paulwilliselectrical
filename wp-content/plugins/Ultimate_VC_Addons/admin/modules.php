@@ -56,6 +56,8 @@
 		'Ultimate_Team'                 => __( 'Ultimate Teams', 'ultimate_vc'),
 		'Ultimate_Sticky_Section'       => __( 'Sticky Section', 'ultimate_vc'),
 		'Ultimate_Range_Slider'         => __( 'Range Slider', 'ultimate_vc'),
+		'Ultimate_Videos'               => __( 'Video', 'ultimate_vc'),
+		'Ultimate_Ribbons'               => __( 'Ribbon', 'ultimate_vc'),
 	);
 ?>
 
